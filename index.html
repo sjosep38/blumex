@@ -35,7 +35,7 @@
       height: auto;
     }
     .card {
-      margin-bottom: 10px;
+      margin-bottom: 7px;
       border: 1px solid #ddd;
       border-radius: 8px;
       overflow: hidden;
@@ -187,9 +187,9 @@
           </div>
         
   
-  <div class="modal fade" id="mobileNumberModal" tabindex="-1" aria-labelledby="mobileNumberModalLabel" aria-hidden="true">
+  <div class="modal fade" id="mobileNumberModal" tabindex="-1" aria-labelledby="mobileNumberModalLabel" aria-hidden="true" >
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content" style="background: linear-gradient(0deg, rgba(237,127,127,1) 0%, rgba(187,88,189,1) 53%, rgba(106,191,189,1) 100%);">
         <div class="modal-header">
           <h5 class="modal-title" id="mobileNumberModalLabel">Enter Your Mobile Number</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -198,7 +198,7 @@
           <p>Please enter your mobile number to receive the voucher code via SMS.</p>
           <form id="mobileNumberForm">
             <div class="mb-3">
-              <input type="text" class="form-control" id="mobileNumber" placeholder="09XXXXXXXXX" required>
+              <input type="text" class="form-control" id="mobileNumber" placeholder="09XXXXXXXXX"  style="letter-spacing: 5px;" required>
               <div class="invalid-feedback">Please enter a valid Philippine mobile number.</div>
             </div>
             <input type="hidden" id="amount" name="amount">
