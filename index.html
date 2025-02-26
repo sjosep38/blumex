@@ -49,7 +49,7 @@
     .card-body {
       display: flex;
       align-items: center;
-      padding: 12px;
+      padding: 10px;
     }
     .price {
       flex: .7;
@@ -97,7 +97,7 @@
   
           <div class="card" data-amount="6" style="background-color: #e3ffc2;color: #ffffff;">
             <div class="card-body">
-              <div class="price">6</div>
+              <div class="price">₱6</div>
               <div class="description">
                 <h5>1 HOUR </h5>
                 <p>UNLIMITED INTERNET
@@ -112,7 +112,7 @@
         
           <div class="card" data-amount="11" style="background-color: #e3ffc2;color: #000000;">
             <div class="card-body">
-              <div class="price">11</div>
+              <div class="price">₱11</div>
               <div class="description">
                 <h5>3 HOURS</h5>
                 <p>UNLIMITED INTERNET
@@ -127,7 +127,7 @@
         
           <div class="card" data-amount="16" style="background-color: #e3ffc2;color: #000000;">
             <div class="card-body">
-              <div class="price">16</div>
+              <div class="price">₱16</div>
               <div class="description">
                 <h5>10 HOURS</h5>
                 <p>UNLIMITED INTERNET
@@ -142,7 +142,7 @@
         
           <div class="card" data-amount="26" style="background-color: #e3ffc2;color: #000000;">
             <div class="card-body">
-              <div class="price">26</div>
+              <div class="price">₱26</div>
               <div class="description">
                 <h5>1 DAY</h5>
                 <p>UNLIMITED INTERNET
@@ -157,7 +157,7 @@
         
           <div class="card" data-amount="99" style="background-color: #e3ffc2;color: #000000;">
             <div class="card-body">
-              <div class="price">99</div>
+              <div class="price">₱99</div>
               <div class="description">
                 <h5>1 WEEK</h5>
                 <p>UNLIMITED INTERNET
@@ -172,7 +172,7 @@
         
           <div class="card" data-amount="300" style="background-color: #e3ffc2;color: #000000;">
             <div class="card-body">
-              <div class="price">300</div>
+              <div class="price">₱300</div>
               <div class="description">
                 <h5>1 MONTH</h5>
                 <p>UNLIMITED INTERNET
@@ -180,13 +180,13 @@
 				5mbps DL / 5mbps UL</p>
               </div>
               <div class="pay-button">
-                <button class="btn" style="background-color: #ff82ec;color: #ffffff;">Pay</button>
+                <button class="btn" style="background-color: #ff82ec;color: #ffffff;">BUY</button>
               </div>
             </div>
           </div>
         
   
-  <div class="modal fade" id="mobileNumberModal" tabindex="-1" aria-labelledby="mobileNumberModalLabel" aria-hidden="true" style="background-color:black">
+ <div class="modal fade" id="mobileNumberModal" tabindex="-1" aria-labelledby="mobileNumberModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -197,7 +197,7 @@
           <p>Please enter your mobile number to receive the voucher code via SMS.</p>
           <form id="mobileNumberForm">
             <div class="mb-3">
-              <input type="text" class="form-control" id="mobileNumber" placeholder="09XXXXXXXXX"  style="letter-spacing: 5px;" required>
+              <input type="text" class="form-control" id="mobileNumber" placeholder="e.g. 09227823014" style="letter-spacing: 3px;" required>
               <div class="invalid-feedback">Please enter a valid Philippine mobile number.</div>
             </div>
             <input type="hidden" id="amount" name="amount">
@@ -205,8 +205,8 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" id="submitMobileNumber">Submit</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="submitMobileNumber">Proceed</button>
         </div>
       </div>
     </div>
